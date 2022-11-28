@@ -1,0 +1,15 @@
+to do:
+
+contact: 
+1. data validation
+2. make submit button trigger "sent" visibility -- need to ask for help
+3. PHP stuff
+4. AJAX so only form refresshes, more seemless for embedded content
+
+ACCESSIBILITY!!!!
+
+replace driver lab image
+
+redesign buttons
+
+portfolio dropdown menu??
