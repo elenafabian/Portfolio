@@ -1,5 +1,5 @@
 function sendMessage() {
     var confirmation = document.querySelector("#confirmation");
-    confirmation.style.visibility = "hidden";
+    confirmation.style.visibility = "visible";
     return;
 }

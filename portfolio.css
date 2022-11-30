@@ -61,6 +61,10 @@ p {
     text-align: center;
 }
 
+.current-page {
+    background-color:rgb(149, 149, 208);
+}
+
 .site-logo {
     position: relative;
     width: 400px;
