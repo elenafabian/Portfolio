@@ -4,8 +4,12 @@ function sendMessage() {
     return;
 }
 
+$("#cpa-form").submit(function(e){
+  e.preventDefault();
+});
+
 function loadDoc(event) {
-    preventDefault(event);
+    event.preventDefault(eent);
 
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
