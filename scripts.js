@@ -9,7 +9,7 @@ $("#cpa-form").submit(function(e){
 });
 
 function loadDoc(event) {
-    event.preventDefault(eent);
+    event.preventDefault();
 
     /* const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
