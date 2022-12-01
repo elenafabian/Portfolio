@@ -6,5 +6,5 @@ function sendMessage() {
 
 $('#send-button').submit(function (e) {
     // custom handling here
-    e.preventDefault();
+    return false;
 });
