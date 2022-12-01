@@ -9,8 +9,8 @@ $("#send-button").submit(function(e){
   e.preventDefault();
 
   // collect data
-  var name = $("#name").value;
-  name = "";
+  //var name = $("#name").value;
+  //name = "";
 
 });
 
