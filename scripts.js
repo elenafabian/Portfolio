@@ -5,7 +5,13 @@ function sendMessage() {
 }
 
 $("#send-button").submit(function(e){
+  // disable defoult
   e.preventDefault();
+
+  // collect data
+  var name = $("#name").value;
+  name = "";
+
 });
 
 /* function loadDoc(event) {
