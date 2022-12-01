@@ -4,7 +4,7 @@ function sendMessage() {
     return;
 }
 
-$('#send-button').submit(function (e) {
+$('#send-button').submit(function () {
     // custom handling here
     return false;
 });
