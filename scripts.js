@@ -11,12 +11,12 @@ $("#cpa-form").submit(function(e){
 function loadDoc(event) {
     event.preventDefault(eent);
 
-    const xhttp = new XMLHttpRequest();
+    /* const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
       document.getElementsByClassName("contact-body-right2").innerHTML = this.responseText;
     }
     xhttp.open("GET", "ajax_info.txt", true);
-    xhttp.send();
+    xhttp.send(); */
 
     var confirmation = document.querySelector("#confirmation");
     confirmation.style.visibility = "visible";
