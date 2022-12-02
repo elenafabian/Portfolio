@@ -136,11 +136,11 @@
                 </div>
                 <div class="email">
                     <label for="email">What's your email?</label>
-                    <input id="email" type="email">
+                    <input id="email" required type="email">
                 </div>
                 <div class="prior">
                     <label for="prior">Have we met before?</label>
-                    <select id="prior">
+                    <select id="prior" required>
                         <option value="none" selected disabled hidden></option>
                         <option>No, nice to meet you!</option>
                         <option>Yes, through Northwestern!</option>
@@ -151,11 +151,11 @@
                 </div>
                 <div class="subject">
                     <label for="subject">Subject:</label>
-                    <input id="subject" type="text">
+                    <input id="subject" type="text" required>
                 </div>
                 <div>
                     <label for="message"></label>
-                    <textarea class="message" id="message">Hi Elena...</textarea>
+                    <textarea class="message" id="message" required>Hi Elena...</textarea>
                 </div>
                 <div class="send">
                     <input type="submit" id="send-button" value="SEND" for="confirmation">
