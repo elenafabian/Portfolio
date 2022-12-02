@@ -6,26 +6,27 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>EF's Portfolio</title>
 </head>
-<div class="header-ribbon">
+
+<nav class="header-ribbon">
     <div class="site-logo"><a href="index.html">ElenaFabian</a></div>
-    <div class="navbar">
+    <div class="navbar" aria-describedby="navbar-horiz"> <!-- wave says bad aria? -->
         <ul class="navbar-horiz">
             <li><a href="about.html">About</a></li>
             <li><a class="current-page" href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-</div>
+</nav>
 
 <body>
     <h1>Plant2.0</h1>
     <div class="return"><a href="portfolio.html">see all projects</a></div>
-    <div class="project">
+    <div class="project" aria-labelledby="figure">
         <figure>
             <img src="images/plant2.0.png">
             <figcaption>Concept Drawing of Plant2.0</figcaption>
         </figure>
-        <div>
+        <div aria-description="Project Details">
             <h3>Project Title:</h3>
             <p>Plant2.0</p>
             <h3>Project Partners:</h3>
