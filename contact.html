@@ -130,18 +130,18 @@
         <div class="contact-body-right2" aria-labelledby="FormTitle">
             <h2 id="FormTitle">send a message right here<br><sub>all fields are required</sub></h2>
             
-            <form class="reach-out" id="form">
+            <form class="reach-out" id="form" name="submit-to-google-sheet">
                 <div class="name">
                     <label for="name-here">What's your name?</label>
-                    <input id="name-here" name="name-here" type="text" pattern=".{1,}" required>
+                    <input class="entry" id="name-here" name="name-here" type="text" pattern=".{1,}" required>
                 </div>
                 <div class="email">
                     <label for="email">What's your email?</label>
-                    <input id="email" name="email" type="email" pattern=".{1,}" required>
+                    <input class="entry" id="email" name="email" type="email" pattern=".{1,}" required>
                 </div>
                 <div class="prior">
                     <label for="prior">Have we met before?</label>
-                    <select id="prior" name="prior" required>
+                    <select class="entry" id="prior" name="prior" required>
                         <option value="none" selected disabled hidden></option>
                         <option>No, nice to meet you!</option>
                         <option>Yes, through Northwestern!</option>
@@ -152,11 +152,11 @@
                 </div>
                 <div class="subject">
                     <label for="subject">Subject:</label>
-                    <input id="subject" name="subject" type="text" pattern=".{1,}" required>
+                    <input class="entry" id="subject" name="subject" type="text" pattern=".{1,}" required>
                 </div>
                 <div>
                     <label for="message"></label>
-                    <textarea class="message" id="message" name="message" pattern=".{10,}" required>Hi Elena...</textarea>
+                    <textarea class="message entry" id="message" name="message" pattern=".{10,}" required>Hi Elena...</textarea>
                 </div>
                 <div class="send">
                     <input type="submit" id="send-button" value="SEND" for="confirmation">
@@ -165,7 +165,7 @@
             </form>
         </div>
     </div>
-    <!-- <script src="scripts.js"></script> -->
+    <script src="scripts.js"></script>
 </body>
 
 </html>
