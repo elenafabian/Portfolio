@@ -9,7 +9,7 @@ form.addEventListener('submit', e => {
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message));
 
-    <!-- i added this -->
+    // i added this
     var confirmation = document.querySelector("#confirmation");
     confirmation.style.visibility = "visible";
     var entries = document.querySelectorAll('.entry');
