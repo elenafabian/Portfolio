@@ -351,6 +351,13 @@ p {
     margin-bottom: 4px;
 }
 
+.contact-body-right2 sub {
+    display: inherit;
+    padding-top: 2px;
+    font-size: 16px;
+    font-style: italic;
+}
+
 .reach_out {
     position: relative;
     display: flex;
