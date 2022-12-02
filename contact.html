@@ -6,26 +6,27 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>EF's Portfolio</title>
 </head>
-<div class="header-ribbon">
+
+<nav class="header-ribbon">
     <div class="site-logo"><a href="index.html">ElenaFabian</a></div>
-    <div class="navbar">
+    <div class="navbar" aria-labelledby="navbar-horiz"> <!-- wave says bad aria? -->
         <ul class="navbar-horiz">
             <li><a href="about.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a class="current-page" href="contact.html">Contact</a></li>
         </ul>
     </div>
-</div>
+</nav>
 
 <body>
     <h1>contact elena</h1>
     <div class="contact-body">
         <div class="contact-body-left">
-            <div class="contact-info">
+            <div class="contact-info" aria-description="Elena's phone and email"">
                 <p><i class="material-icons">phone_iphone</i>(858)-357-4125</p>
                 <p><i class="material-icons">mail</i>elena.i.fabian@gmail.com</p>
             </div>
-            <div>
+            <div aria-description="Elena's instagram embedded.">
                 <blockquote class="instagram-media"
                     data-instgrm-permalink="https://www.instagram.com/elena.i.fabian/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="14"
@@ -126,20 +127,20 @@
                 <script async src="https://instagram.com/static/bundles/es6/EmbedSDK.js/47c7ec92d91e.js"></script>
             </div>
         </div>
-        <div class="contact-body-right2">
-            <h2>send a message right here</h2>
+        <div class="contact-body-right2" aria-labelledby="FormTitle">
+            <h2 id="FormTitle">send a message right here</h2>
             <form class="reach-out" id="form">
                 <div class="name">
-                    <label>What's your name?</label>
-                    <input>
+                    <label for="name">What's your name?</label>
+                    <input name="name">
                 </div>
                 <div class="email">
-                    <label>What's your email?</label>
-                    <input>
+                    <label for="email">What's your email?</label>
+                    <input name="email">
                 </div>
                 <div class="prior">
-                    <label>Have we met before?</label>
-                    <select>
+                    <label for="prior">Have we met before?</label>
+                    <select name="prior">
                         <option value="none" selected disabled hidden></option>
                         <option>No, nice to meet you!</option>
                         <option>Yes, through Northwestern!</option>
