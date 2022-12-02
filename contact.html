@@ -132,15 +132,15 @@
             <form class="reach-out" id="form">
                 <div class="name">
                     <label for="name">What's your name?</label>
-                    <input id="name" type="text">
+                    <input id="name" name="name" type="text" required>
                 </div>
                 <div class="email">
                     <label for="email">What's your email?</label>
-                    <input id="email" required type="email">
+                    <input id="email" name="email" type="email" required>
                 </div>
                 <div class="prior">
                     <label for="prior">Have we met before?</label>
-                    <select id="prior" required>
+                    <select id="prior" name="prior" required>
                         <option value="none" selected disabled hidden></option>
                         <option>No, nice to meet you!</option>
                         <option>Yes, through Northwestern!</option>
@@ -151,11 +151,11 @@
                 </div>
                 <div class="subject">
                     <label for="subject">Subject:</label>
-                    <input id="subject" type="text" required>
+                    <input id="subject" name="subject" type="text" required>
                 </div>
                 <div>
                     <label for="message"></label>
-                    <textarea class="message" id="message" required>Hi Elena...</textarea>
+                    <textarea class="message" id="message" name="message" required>Hi Elena...</textarea>
                 </div>
                 <div class="send">
                     <input type="submit" id="send-button" value="SEND" for="confirmation">
@@ -164,7 +164,7 @@
             </form>
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <!-- <script src="scripts.js"></script> -->
 </body>
 
 </html>
